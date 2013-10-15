@@ -21,6 +21,11 @@ void notandi( int* hruga );
 //Þetta fall birtir reglurnar í spilinu:
 void hjalp( );
 
+//Her kemur tilgangslaust fall.
+void ekkert() {
+	return;
+}
+
 //Þetta fall spilar spilið:
 void spila( );
 
@@ -152,6 +157,7 @@ void notandi( int* hruga )
 		if( eldspytur < 1 )
 		{
 			cout << "Thu verdur ad taka a.m.k. eina eldspytu. Veldu aftur. " << endl << endl;
+			ekkert();
 			continue;
 		}
 		cout << "Sladu inn ur hvada hrugu: ";
@@ -159,6 +165,7 @@ void notandi( int* hruga )
 		if( hrugunumer > hrugufjoldi )
 		{
 			cout << "Thad er engin hruga med thessu numeri.  Veldu aftur." <<endl<<endl;
+			ekkert();
 			continue;
 		}
 		if( eldspytur > hruga[ (hrugunumer) - 1 ] )
