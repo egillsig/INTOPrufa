@@ -220,7 +220,7 @@ void tolva( int* hruga )
 	hruga[ (hrugunumer) - 1 ] -= eldspytur;
 	if( !samtals( hruga ) )
 	{
-		cout << endl << "Eg vann.  Thad gengur bara betur naest!" << endl << endl;
+		cout << endl << "Eg vann. Thad gengur bara betur naest! Engar ahyggjur, thad er engin skomm í thvi ad tapa fyrir tolvu. Garry Kasparov tapadi t.a.m. fyrir deep blue arid 1997." << endl << endl;
 		cout << "Sladu a einhvern lykil...   " << endl;
 		getchar( );
 	}
