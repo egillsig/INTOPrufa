@@ -18,6 +18,8 @@ void tolva( int* hruga );
 //Þetta fall lætur notandann gera:
 void notandi( int* hruga );
 
+//Þetta er ekki fall, þetta er komment frá Jörundi Jörundssyni. Eigðu góðan dag.
+
 //Þetta fall birtir reglurnar í spilinu:
 void hjalp( );
 
